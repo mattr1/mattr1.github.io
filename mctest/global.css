@@ -1,0 +1,100 @@
+
+
+body { 
+	background-color: #baceb9; 
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 0.85em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div.page
+{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:10px;
+}
+
+div.header 
+{
+	color: White; 
+	margin-left: 20px; margin-right:20px; margin-top: 20px; margin-bottom:2px;
+	font-size: large;
+	font-weight: bold;	
+	padding-left: 15px
+}
+span.subtitle
+{ 
+	font-weight: bold;
+}
+
+span.menulinks
+{
+	float:right;
+}
+.menu span a{
+	color:#789177;
+	text-decoration:none;
+}
+.menu span a:hover, .menu .active {text-decoration:underline;}
+
+div.menu
+{
+	background-color:white;
+	padding: 8px 15px;
+	margin-left:20px; margin-right :20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+div.content 
+{
+	background-color:White; 
+	margin-left: 20px; margin-right:20px; 
+	padding: 10px;
+	border-radius: 15px;
+}
+
+div.samplestory
+{
+	/*font-family: 'Courier New', monospace;
+	font-size:small;*/
+	border: 1px solid black;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+a:hover {text-decoration:none;}
+
+/*a.reversehover 
+{
+	color:#333;
+	text-decoration:none;
+}
+a.reversehover:hover {text-decoration:underline;}*/
+
+#resultsTable
+{
+	border-collapse: collapse;
+}
+
+#resultsTable tr
+{
+	border-bottom: 1px dashed gray;
+}
+
+#resultsTable tr:hover
+{
+	background-color: #baceb9;
+}
+
+
+#resultsHeader td
+{
+	font-weight: bold;
+	border-bottom: 2px solid black;
+}
+
+
+
